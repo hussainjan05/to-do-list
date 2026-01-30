@@ -36,7 +36,7 @@ const Todolist = () => {
             {/* Heading wala INPUT */}
         <input type="text" 
         placeholder='Enter notes heading' 
-        className='px-5 py-2 font-medium border-2  w-full outline-none rounded text-black'
+        className='px-4 py-2 font-medium border-2  w-full outline-none rounded text-black'
         value={title}
         onChange={(e)=>{
         setTitle(e.target.value)
