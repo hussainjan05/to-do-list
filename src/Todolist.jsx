@@ -29,7 +29,7 @@ const Todolist = () => {
 
         <form onSubmit={(e)=>{
             submitHandler(e)
-         }} className='flex  items-start p-10 gap-4 lg:w-1/2   flex-col ' >
+         }} className='flex  items-start p-11 gap-4 lg:w-1/2   flex-col ' >
          
          <h1 className='text-4xl font-bold'>Add Notes</h1>
 
